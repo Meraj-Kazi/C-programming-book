@@ -1,5 +1,4 @@
-
-    <link href="css/style.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 
 # Learn C Programming 
 ## with Meraj Kazi
