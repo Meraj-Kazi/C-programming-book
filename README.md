@@ -1,8 +1,5 @@
-<html>
-<head>
+
     <link href="css/style.css" rel="stylesheet">
-</head>
-<body>
 
 # Learn C Programming 
 ## with Meraj Kazi
@@ -38,6 +35,3 @@ And there should be **_no blank space_** in name. Suppose, file names like `my f
 
 
 
-</body>
-
-</html>
