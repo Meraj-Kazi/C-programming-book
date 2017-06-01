@@ -10,6 +10,9 @@ C language was originally developed by Dennis Ritchie between 1969 and 1973 at B
 
 ## Before we start:
 We need a compiler software installed in our PC in which we'll write, compile and run our codes in C. 
+Here's is a list of some C language compilers:
 
-
-## Compiler
+- Codeblocks
+- Dev C++ 
+- Turbo C
+- Vim (_my favourite, but don't try if you're a biginner_)
