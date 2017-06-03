@@ -31,6 +31,9 @@ And there should be **_no blank space_** in name. Suppose, file names like `my f
 
 
 ## Start Coding in C
+_From here,things get dirty_ :D 
+First of all, I assume you're new to programming or new to C programming language. That's why you'll not understand many things at the beginning, but don't worry. Continue reading and keep going, you'll understand it all after some time. Sounds fair?! :p 
+
 
 
 
