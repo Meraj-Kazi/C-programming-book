@@ -39,13 +39,13 @@ First of all, I assume you're new to programming or new to C programming languag
 
 Remember this portion of code as a frame for your basic learning. You need to use this code almost every time you write anything in C. It's like one of the base of C programming. 
 
-`#include<stdio.h>
+`#include<stdio.h>`
 
-int main() 
-{  
+`int main()` 
+`{`  
     
    
-}`
+`}`
 
 
 
