@@ -50,3 +50,6 @@ int main()
 } 
 ```
 
+Seems like you're reading some alien language?! <br>
+No, it's not like that :p <br>
+After finishing the basics, you gonna love this portion of code for sure ^__^
