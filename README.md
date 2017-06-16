@@ -53,3 +53,20 @@ int main()
 Seems like you're reading some alien language?! <br>
 No, it's not like that :p <br>
 After finishing the basics, you gonna love this portion of code for sure ^__^
+
+Now put this line of code between `{  }` 
+
+```
+printf("Hello World!");
+```
+
+Your code should look like this:
+```
+#include<stdio.h>
+
+int main() 
+{  
+    printf("Hello World!");
+   
+} 
+```
