@@ -70,6 +70,6 @@ int main()
    
 } 
 ```
-Now, coding part is done. Weneed to execute it. After executing we'll find out what this code does. <br>
+Now, coding part is done. We need to execute it. After executing we'll find out what this code does. <br>
 To execute the code, look at the top border and click on the `Execute` button. A dropdown will come with some options. You'll click on `Complie`. Then the code will be compiled. Compiling is checking if there's any mistake in the code. If there any, then it'll show that on the screen in down(CodeBlocs) or in another mini window(Dev C++). Our code has no bugs or mistakes, so there will be a message like `Successfully completed.......` or `Successfully compiled`. <br>
 
