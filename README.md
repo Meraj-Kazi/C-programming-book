@@ -71,5 +71,12 @@ int main()
 } 
 ```
 Now, coding part is done. We need to execute it. After executing we'll find out what this code does. <br>
-To execute the code, look at the top border and click on the `Execute` button. A dropdown will come with some options. You'll click on `Comiple`. Then the code will be compiled. Compiling is checking if there's any mistake in the code. If there any, then it'll show that on the screen in down(CodeBlocs) or in another mini window(Dev C++). Our code has no bugs or mistakes, so there will be a message like `Successfully completed.......` or `Successfully compiled` etc. <br>
+To execute the code, look at the top border and click on the `Execute` button. A dropdown will come with some options. You'll click on `Comiple`. Then the code will be compiled. Compiling is checking if there's any mistake in the code. If there any, then it'll show that on the screen in down(CodeBlocs) or in another mini window(Dev C++). Our code has no bugs or mistakes, so there will be a message like `Successfully completed.......` or `Successfully compiled` etc. <br> <br>
 
+Now we need to run this small program so that we can see what it does. So, click that `Execute` button once again and click on `Run`. <br>
+A black screen will come and there will be written `Hello World`. <br> 
+
+Now that we know our program is correct and we also know it prints a `Helllo World` on the screen, we can try to understand the code part by part.
+
+## The meaning of `#include<stdio.h>`:
+`stdio`= Standard Input Output. It is a header file which helps the computer to understand the codes in c. That's why we need to include it in the program at the very beginning. Without that header file, computer would not understand our code. As it's a header file, that's why it has a `.h` extension. 
