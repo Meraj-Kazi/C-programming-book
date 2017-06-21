@@ -79,4 +79,17 @@ A black screen will come and there will be written `Hello World`. <br>
 Now that we know our program is correct and we also know it prints a `Helllo World` on the screen, we can try to understand the code part by part.
 
 ## The meaning of `#include<stdio.h>`:
-`stdio`= Standard Input Output. It is a header file which helps the computer to understand the codes in c. That's why we need to include it in the program at the very beginning. Without that header file, computer would not understand our code. As it's a header file, that's why it has a `.h` extension. 
+`stdio`= Standard Input Output. It is a header file which helps the computer to understand the codes in c. That's why we need to include it in the program at the very beginning. Without that header file, computer would not understand our code. As it's a header file, that's why it has a `.h` extension. <br>
+
+## The meaning of `int main()`:
+`int` means integer. Integer is a term in mathematics that refers to numbers without any decimal point. Example: 1,4,7,8 etc. are integers. `main()` is a function. Programming works as function. That means a computer program is nothing but a collection of one or more functions written in a programming language. So, for now, only thing that we need to remember is `int main()` is a function that helps us to build and run our programs in it. The programs written under any function has a `{` at starting point and a `}` at the end. So, it looks like this- 
+
+```
+#include<stdio.h>
+
+int main() 
+{  
+    
+   
+} 
+```
