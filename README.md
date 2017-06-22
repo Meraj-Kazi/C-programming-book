@@ -67,7 +67,8 @@ Your code should look like this:
 int main() 
 {  
     printf("Hello World!");
-   
+    
+    return 0;
 } 
 ```
 Now, coding part is done. We need to execute it. After executing we'll find out what this code does. <br>
@@ -93,3 +94,12 @@ int main()
    
 } 
 ```
+
+## The meaning of `printf("Hello World!");`:
+`printf` is a inbuilt library function in C programming language which is available in C library by default. It is declared and related macros are defined in `stdio.h` which is a header file in C language. That's why we have to include `stdio.h` file as shown in the C program to make use of printf() library function in C language. <br>
+
+Now, what does `printf` do ??? <br>
+It displays everything on the screen which it has between it's `" "`. In this case we had 'Hello World!' written there. That's why it displayed 'Hello World!'. <br>
+
+Let's try something else! Put name of your favorite person or place or anything else in the place of 'World' and see if it works. But you need to save it again by pressing `ctrl + s`, compile it and then run it. This is because, you made some changes in the code by replacing the word 'world' with another word. If we change even a `,` in the code, we need to save, compile again and then run it.
+
