@@ -14,3 +14,5 @@ You can contribute in this book in many ways, such as
 
 * Find errors in code used in the book
 * Find those parts that seems confusing or hard to understand
+
+Then go to this file and make commit describing the error or fault.
