@@ -15,4 +15,4 @@ You can contribute in this book in many ways, such as
 * Find errors in code used in the book
 * Find those parts that seems confusing or hard to understand
 
-Then go to this file and make commit describing the error or fault.
+### Then go to [Fault in my book](https://github.com/Meraj-Kazi/C-programming-book/blob/master/Fault-in-my-book.md) and make a pull request describing the error or fault.
