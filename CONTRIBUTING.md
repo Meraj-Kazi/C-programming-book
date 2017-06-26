@@ -4,9 +4,9 @@
 First off, thank you for considering contributing to C programming book. It's people like you 
 that make C programming book great.
 
-### why they should read your guidelines ?
+### why you should read your guidelines ?
 Following these guidelines helps to communicate that you respect the time of the developers managing 
-and developing this open source project. In return, they should reciprocate that respect in addressing 
+and developing this open source project. In return, you should reciprocate that respect in addressing 
 your issue, assessing changes, and helping you finalize your pull requests.
 
 ### So, how can you contribute ???
