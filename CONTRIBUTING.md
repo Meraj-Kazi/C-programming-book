@@ -17,4 +17,4 @@ You can contribute in this book in many ways, such as
 
 ### Then go to [Fault in my book](https://github.com/Meraj-Kazi/C-programming-book/blob/master/Fault-in-my-book.md) and make a pull request describing the error or fault.
 
-Thank you 
+Thank you in advance!
