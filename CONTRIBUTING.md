@@ -1,6 +1,4 @@
-# Introduction 
-
-### Welcome to C Programming Book by _Meraj Kazi_
+# Welcome to C Programming Book by _Meraj Kazi_
 First off, thank you for considering contributing to C programming book. It's people like you 
 that make C programming book great.
 
