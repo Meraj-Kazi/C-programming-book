@@ -103,3 +103,5 @@ It displays everything on the screen which it has between it's `" "`. In this ca
 
 Let's try something else! Put name of your favorite person or place or anything else in the place of 'World' and see if it works. But you need to save it again by pressing `ctrl + s`, compile it and then run it. This is because, you made some changes in the code by replacing the word 'world' with another word. If we change even a `,` in the code, we need to save, compile again and then run it.
 
+## The meaning of `return 0;`:
+
