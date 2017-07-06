@@ -111,4 +111,4 @@ Well, the answer is not that simple. For now, just keep it in mind that, `return
 You may have noticed that we used a semicolon `;` after every line of our code. That's because it's mandatory. 
 Now, why is it mndatory???
 Well, the answer is pretty much simple! 
-Compiler never thinks about spaces or line breakes. That means all the spaces or line breaks are never important for compiler. But if we don't keep any white space or line break, then the code would look like impossible to understand. 
+Compiler never thinks about spaces or line breakes. That means all the spaces or line breaks are never important for compiler. But if we don't keep any white space or line break, then the code would look like impossible to understand. The `;` indicates that the line ends at that point. That's why it is necessary to put a `;` after every line.
