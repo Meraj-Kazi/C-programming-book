@@ -106,3 +106,6 @@ Let's try something else! Put name of your favorite person or place or anything 
 ## The meaning of `return 0;`:
 This program would run successfully without this line. Then the question remains <strong> "_Why did we put that then???_" </strong> <br>
 Well, the answer is not that simple. For now, just keep it in mind that, `return 0;` indicates that the program performed successfully.
+
+### _Another important thing_
+You may have noticed that we used a semicolon `;` after every line of our code.
