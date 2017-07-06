@@ -108,7 +108,9 @@ This program would run successfully without this line. Then the question remains
 Well, the answer is not that simple. For now, just keep it in mind that, `return 0;` indicates that the program performed successfully.
 
 ### _Another important thing_
-You may have noticed that we used a semicolon `;` after every line of our code. That's because it's mandatory. 
-Now, why is it mndatory???
-Well, the answer is pretty much simple! 
-Compiler never thinks about spaces or line breakes. That means all the spaces or line breaks are never important for compiler. But if we don't keep any white space or line break, then the code would look like impossible to understand. The `;` indicates that the line ends at that point. That's why it is necessary to put a `;` after every line.
+You may have noticed that we used a semicolon `;` after every line of our code. That's because it's mandatory. <br>
+Now, why is it mndatory??? <br>
+Well, the answer is pretty much simple! <br>
+Compiler never thinks about spaces or line breakes. That means all the spaces or line breaks are never important for compiler. But if we don't keep any white space or line break, then the code would look like impossible to understand. <br>
+
+The `;` indicates that the line ends at that point. That's why it is necessary to put a `;` after every line.
