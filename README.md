@@ -121,7 +121,7 @@ And this piece of knowledge will always help you whenever you try to learn any n
 
 Now then, let's move on to the next phage where we will learn to do some maths with programming using very much easy logics that student with poor knowledge of math can do. <br> 
 
-Let's see the code again but in a different way. 
+Let's see the code again but with some additional things. 
 
 ```
 #include<stdio.h>
