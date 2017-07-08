@@ -107,6 +107,8 @@ Let's try something else! Put name of your favorite person or place or anything 
 This program would run successfully without this line. Then the question remains <strong> "_Why did we put that then???_" </strong> <br>
 Well, the answer is not that simple. For now, just keep it in mind that, `return 0;` indicates that the program performed successfully.
 
+## _[_
+
 ### _Another important thing_
 You may have noticed that we used a semicolon  `;`  after every line of our code. That's because it's mandatory. <br>
 Now, why is it mndatory??? <br>
@@ -115,7 +117,9 @@ Compiler never thinks about spaces or line breakes. That means all the spaces or
 
 This semicolon  `;` indicates that the line ends at that point. <br>
 That's why it is necessary to put a `;` after every line. <br>
-And this piece of knowledge will always help you whenever you try to learn any new programming language.
+And this piece of knowledge will always help you whenever you try to learn any new programming language. 
+
+## _]_
 
 ### And don't get bored seeing these as I'm moving slowly, because the more you understand these with you heart, the more you gonna rock in the next stage! <br>
 
