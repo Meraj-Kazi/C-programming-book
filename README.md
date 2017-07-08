@@ -113,6 +113,29 @@ Now, why is it mndatory??? <br>
 Well, the answer is pretty much simple! <br>
 Compiler never thinks about spaces or line breakes. That means all the spaces or line breaks are never important for compiler. But if we don't keep any white space or line break, then the code would look like impossible to understand. <br>
 
-This semicolon  `;` indicates that the line ends at that point. That's why it is necessary to put a `;` after every line. <br>
+This semicolon  `;` indicates that the line ends at that point. <br>
+That's why it is necessary to put a `;` after every line. <br>
 And this piece of knowledge will always help you whenever you try to learn any new programming language.
+
+### And don't get bored seeing these as I'm moving slowly, because the more you understand these with you heart, the more you gonna rock in the next stage! <br>
+
+Now then, let's move on to the next phage where we will learn to do some maths with programming using very much easy logics that student with poor knowledge of math can do. <br> 
+
+Let's see the code again but in a different way. 
+
+```
+#include<stdio.h>
+
+int main() 
+{  
+    int a;
+    printf("Enter a number: \n");
+    scanf(" %d", &a);
+    
+    printf("The number is: %d ", a);
+    
+    return 0;
+   
+} 
+```
 
