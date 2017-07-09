@@ -75,7 +75,7 @@ Now, coding part is done. We need to execute it. After executing we'll find out 
 To execute the code, look at the top border and click on the `Execute` button. A dropdown will come with some options. You'll click on `Comiple`. Then the code will be compiled. Compiling is checking if there's any mistake in the code. If there any, then it'll show that on the screen in down(CodeBlocs) or in another mini window(Dev C++). Our code has no bugs or mistakes, so there will be a message like `Successfully completed.......` or `Successfully compiled` etc. <br> <br>
 
 Now we need to run this small program so that we can see what it does. So, click that `Execute` button once again and click on `Run`. <br>
-A black screen will come and there will be written `Hello World`. <br> 
+### A black screen will come and there will be written `Hello World`. <br> 
 
 Now that we know our program is correct and we also know it prints a `Helllo World` on the screen, we can try to understand the code part by part.
 
@@ -145,6 +145,7 @@ int main()
 
 Compile this code, run it and see the result. <br>
 
-
+Another black screen comes in front of you and tells you to enter a number. If you enter a number, it displays the number you entered. <br>
+Let's try to understand what's new in this code!!!
 
 
