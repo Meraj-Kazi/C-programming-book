@@ -151,7 +151,10 @@ Let's try to understand what's new in this code!!! <br>
 ## What is `int` ?
 Well, there are 3 kinds of data types. In simple language, we have 3 types of values. 
 
-### 1. Integer types
-### 2. Integer types
-### 3. Integer types
+### 1. Integer: 
+Integers are numbers without any decimal value. Example: 1, 4, 15, 2100 etc.
+### 2. Floating numbers: 
+Floating numbers or floats ar numbers with decimal point. Example: 2.5, 97.7 etc.
+### 3. Character: 
+They're alphabets. Example: a, d, e, A, M, S etc.
 
