@@ -149,5 +149,9 @@ Another black screen comes in front of you and tells you to enter a number. If y
 Let's try to understand what's new in this code!!! <br>
 
 ## What is `int` ?
-Well, there are 3 kinds of data types. In simple language, we have 3 types of value. 
+Well, there are 3 kinds of data types. In simple language, we have 3 types of values. 
+
+### 1. Integer types
+### 2. Integer types
+### 3. Integer types
 
