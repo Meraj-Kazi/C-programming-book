@@ -159,7 +159,8 @@ Floating numbers or floats ar numbers with decimal point. Example: 2.5, 97.7 etc
 They're known as in `float` programming language.
 ### 3. Character: 
 They're alphabets. Example: a, d, e, A, M, S etc.
-They're known as in `char` programming language.
+They're known as in `char` programming language. <br>
 
-What does all these means?
+What does all these means? <br>
+This means if I declare a variable called `int v`, it means that variable `v` is created and it can hold an integer type value. <br>
 So, in the line `int a ` means we took a variable called a which will be an integer type value.
