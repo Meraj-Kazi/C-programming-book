@@ -146,6 +146,6 @@ int main()
 Compile this code, run it and see the result. <br>
 
 Another black screen comes in front of you and tells you to enter a number. If you enter a number, it displays the number you entered. <br>
-Let's try to understand what's new in this code!!!
+Let's try to understand what's new in this code!!! <br>
 
 
