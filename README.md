@@ -153,8 +153,11 @@ Well, there are 3 kinds of data types. In simple language, we have 3 types of va
 
 ### 1. Integer: 
 Integers are numbers without any decimal value. Example: 1, 4, 15, 2100 etc.
+They're known as in `int` programming language.
 ### 2. Floating numbers: 
 Floating numbers or floats ar numbers with decimal point. Example: 2.5, 97.7 etc.
+They're known as in `float` programming language.
 ### 3. Character: 
 They're alphabets. Example: a, d, e, A, M, S etc.
+They're known as in `char` programming language.
 
