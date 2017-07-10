@@ -161,3 +161,5 @@ They're known as in `float` programming language.
 They're alphabets. Example: a, d, e, A, M, S etc.
 They're known as in `char` programming language.
 
+What does all these means?
+So, in the line `int a ` means we took a variable called a which will be an integer type value.
