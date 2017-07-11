@@ -163,4 +163,11 @@ They're known as in `char` programming language. <br>
 
 What does all these means? <br>
 This means if I declare a variable called `int v`, it means that variable `v` is created and it can hold an integer type value. <br>
-So, in the line `int a ` means we took a variable called `a` which will be an integer type value.
+So, in the line `int a ` means we took a variable called `a` which will be an integer type value.<br>
+In the next line, the code was 
+```
+   printf("Enter a number: \n");
+```
+
+
+
