@@ -169,5 +169,5 @@ In the next line, the code was
    printf("Enter a number: \n");
 ```
 
-
+You already know about ` printf ` function, but ` \n ` is new for you.
 
