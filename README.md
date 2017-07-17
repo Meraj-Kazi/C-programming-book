@@ -168,6 +168,6 @@ In the next line, the code was
 ```
    printf("Enter a number: \n");
 ```
-
+<br>
 You already know about ` printf ` function, but ` \n ` is new for you.
 
