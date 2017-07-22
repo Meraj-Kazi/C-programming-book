@@ -164,12 +164,21 @@ They're known as `char` in programming language. <br>
 What does all these means? <br>
 This means if I declare a variable called `int v`, it means that variable `v` is created and it can hold an integer type value like 1,2,3,15 etc. <br>
 So, in the line `int a ` means we took a variable called `a` which will be an integer type value.<br>
-In the next line, the code was 
+In the next line, the code was <br>
 ```
    printf("Enter a number: \n");
 ```
 <br>
 
-You already know about ` printf ` function, but `\n` is new for you. <br>
-`\n` is an special symbol that gives a _line break_. That means, when I use `\n` in a line, that line finishes there.`int v`
+You already know about ` printf ` function, but ` \n ` is new for you. <br>
+` \n ` is an special symbol that gives a _line break_. That means, when I use ` \n ` in a line, that line finishes there.
+
+## Meaning of `scanf(" %d", &a);`:
+`scanf` is another library function which works as it is supposed to do, It's work is to get number from user. <br> 
+`%d` means it'll take an integer value from user. <br>
+_[`%d` is for taking integer value, `%f` is for taking float values and `%c` is for char or characters]_ <br>
+
+Now, because of `%d`, the function `scanf` will take a value from user, but where it'll store or save it???<br>
+There comes the `&a`. We declared an integer variable `a` at the beginning of our program. We'll keep the value in `a`. To transfer the value from `%d` to `a` we use `&` function. So, `&a` puts the value in `a`. Now, remember, `a` is just a variable we declared at the beginning. We could name it anything. If we declared it as `int b` or `int random` or anything else, it would work just fine. Then we would have to use it like `&random`. Now, you've understood that, in `scanf(" %d", &a);`, user enters a value and `%d` receives it and sends it to `&a`
+
 
