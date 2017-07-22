@@ -159,10 +159,10 @@ Floating numbers or floats ar numbers with decimal point. Example: 2.5, 97.7 etc
 They're known as in `float` programming language.
 ### 3. Character: 
 They're alphabets. Example: a, d, e, A, M, S etc.
-They're known as in `char` programming language. <br>
+They're known as `char` in programming language. <br>
 
 What does all these means? <br>
-This means if I declare a variable called `int v`, it means that variable `v` is created and it can hold an integer type value. <br>
+This means if I declare a variable called `int v`, it means that variable `v` is created and it can hold an integer type value like 1,2,3,15 etc. <br>
 So, in the line `int a ` means we took a variable called `a` which will be an integer type value.<br>
 In the next line, the code was 
 ```
@@ -170,5 +170,5 @@ In the next line, the code was
 ```
 <br>
 You already know about ` printf ` function, but ` \n ` is new for you. <br>
-
+` \n ` is an special symbol that gives a _line break_. That means, when I use ` \n ` in a line, that line finishes there.
 
