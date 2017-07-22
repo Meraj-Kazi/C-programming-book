@@ -169,6 +169,7 @@ In the next line, the code was
    printf("Enter a number: \n");
 ```
 <br>
+
 You already know about ` printf ` function, but `\n` is new for you. <br>
-`\n` is an special symbol that gives a _line break_. That means, when I use `\n` in a line, that line finishes there.
+`\n` is an special symbol that gives a _line break_. That means, when I use `\n` in a line, that line finishes there.`int v`
 
