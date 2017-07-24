@@ -179,6 +179,46 @@ You already know about ` printf ` function, but ` \n ` is new for you. <br>
 _[`%d` is for taking integer value, `%f` is for taking float values and `%c` is for char or characters]_ <br>
 
 Now, because of `%d`, the function `scanf` will take a value from user, but where it'll store or save it???<br>
-There comes the `&a`. We declared an integer variable `a` at the beginning of our program. We'll keep the value in `a`. To transfer the value from `%d` to `a` we use `&` function. So, `&a` puts the value in `a`. Now, remember, `a` is just a variable we declared at the beginning. We could name it anything. If we declared it as `int b` or `int random` or anything else, it would work just fine. Then we would have to use it like `&random`. Now, you've understood that, in `scanf(" %d", &a);`, user enters a value and `%d` receives it and sends it to `&a`
+There comes the `&a`. We declared an integer variable `a` at the beginning of our program. We'll keep the value in `a`. To transfer the value from `%d` to `a` we use `&` symbol. So, `&a` puts the value in `a`. Now, remember, `a` is just a variable we declared at the beginning. We could name it anything. If we declared it as `int b` or `int random` or anything else, it would work just fine. Then we would have to use it like `&random`. Now, you've understood that, in `scanf(" %d", &a);`, user enters a value and `%d` receives it and sends it to `&a` <br> <br>
 
+Now then, next line is <br> 
+`printf("The number is: %d ", a);` <br>
+The `%d` in the code gets the value of "a", which is written after the `",` symbols in the code. So, this line displays the number we saved in `a`. Couldn't we just write like this?- <br>
+`printf("The number is: a");` <br>
 
+No, it wouldn't work. Because it would print "a" instead of printing the value of "a". To print he value, we need to put `%d` in between `" "` and write the variavble afer putting a comma(`,`) after it. But how about printing more than one numbers? <br>
+Let's try this code! <br>
+
+```
+#include<stdio.h>
+
+int main() 
+{  
+    int a,b;
+    a= 5;
+    b= 6;
+    
+    printf("a = %d and b = %d ", a, b);
+    
+    return 0;
+   
+} 
+```
+
+Run this code. I hope you're seeing that first `%d` gets the value of first variable written after the comma(`,`). Second `%d` gets the value of second variable. That's how it works! Now find out if we declare a variable without storing any value in it, what will happen if we try to print it's value? <br> 
+Here's the code- <br>
+```
+#include<stdio.h>
+
+int main() 
+{  
+    int a,b,c;
+    a= 5;
+    b= 6;
+    
+    printf("a = %d, b = %d and c = %d", a, b, c);
+    
+    return 0;
+   
+} 
+```
