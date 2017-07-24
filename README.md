@@ -124,19 +124,16 @@ And this piece of knowledge will always help you whenever you try to learn any n
 ### And don't get bored seeing these as I'm moving slowly, because the more you understand these with you heart, the more you gonna rock in the next stage! <br>
 
 Now then, let's move on to the next phage where we will learn to do some maths with programming using very much easy logics that student with poor knowledge of math can do. <br> 
-
-Let's see the code again but with some additional things. 
-
+Let's try this code: <br>
 ```
 #include<stdio.h>
 
 int main() 
 {  
     int a;
-    printf("Enter a number: \n");
-    scanf(" %d", &a);
+    a= 5;
     
-    printf("The number is: %d ", a);
+    printf("value of a = %d", a);
     
     return 0;
    
@@ -144,49 +141,20 @@ int main()
 ```
 
 Compile this code, run it and see the result. <br>
+It displays `value of a = 5` <br>
 
-Another black screen comes in front of you and tells you to enter a number. If you enter a number, it displays the number you entered. <br>
-Let's try to understand what's new in this code!!! <br>
-
-## What is `int` ?
-Well, there are 3 kinds of data types. In simple language, we have 3 types of values. 
-
-### 1. Integer: 
-Integers are numbers without any decimal value. Example: 1, 4, 15, 2100 etc.
-They're known as in `int` programming language.
-### 2. Floating numbers: 
-Floating numbers or floats ar numbers with decimal point. Example: 2.5, 97.7 etc.
-They're known as in `float` programming language.
-### 3. Character: 
-They're alphabets. Example: a, d, e, A, M, S etc.
-They're known as `char` in programming language. <br>
-
-What does all these means? <br>
-This means if I declare a variable called `int v`, it means that variable `v` is created and it can hold an integer type value like 1,2,3,15 etc. <br>
-So, in the line `int a ` means we took a variable called `a` which will be an integer type value.<br>
-In the next line, the code was <br>
+In this line <br> 
 ```
-   printf("Enter a number: \n");
+printf("value of a = %d", a);
 ```
-<br>
 
-You already know about ` printf ` function, but ` \n ` is new for you. <br>
-` \n ` is an special symbol that gives a _line break_. That means, when I use ` \n ` in a line, that line finishes there.
-
-## Meaning of `scanf(" %d", &a);`:
-`scanf` is another library function which works as it is supposed to do, It's work is to get number from user. <br> 
-`%d` means it'll take an integer value from user. <br>
-_[`%d` is for taking integer value, `%f` is for taking float values and `%c` is for char or characters]_ <br>
-
-Now, because of `%d`, the function `scanf` will take a value from user, but where it'll store or save it???<br>
-There comes the `&a`. We declared an integer variable `a` at the beginning of our program. We'll keep the value in `a`. To transfer the value from `%d` to `a` we use `&` symbol. So, `&a` puts the value in `a`. Now, remember, `a` is just a variable we declared at the beginning. We could name it anything. If we declared it as `int b` or `int random` or anything else, it would work just fine. Then we would have to use it like `&random`. Now, you've understood that, in `scanf(" %d", &a);`, user enters a value and `%d` receives it and sends it to `&a` <br> <br>
-
-Now then, next line is <br> 
-`printf("The number is: %d ", a);` <br>
 The `%d` in the code gets the value of "a", which is written after the `",` symbols in the code. So, this line displays the number we saved in `a`. Couldn't we just write like this?- <br>
-`printf("The number is: a");` <br>
 
-No, it wouldn't work. Because it would print "a" instead of printing the value of "a". To print he value, we need to put `%d` in between `" "` and write the variavble afer putting a comma(`,`) after it. But how about printing more than one numbers? <br>
+```
+printf("value of a = a");
+```
+
+No, it wouldn't work. Because it would print "a" instead of printing the value of "a". To print the value, we need to put `%d` in between `" "` and write the variavble afer putting a comma(`,`) after it. But how about printing more than one numbers? <br>
 Let's try this code! <br>
 
 ```
@@ -222,3 +190,90 @@ int main()
    
 } 
 ```
+
+## {due work: write the result and cause}
+
+By the way, did you guys notice that we used `int a`, `int a,b` and `int a,b,c` in these codes?? <br>
+
+## What's the meaning of this `int`?
+
+Well, there are 3 kinds of data types. In simple language, we have 3 types of values. 
+
+### 1. Integer: 
+Integers are numbers without any decimal value. Example: 1, 4, 15, 2100 etc.
+They're known as in `int` programming language.
+### 2. Floating numbers: 
+Floating numbers or floats ar numbers with decimal point. Example: 2.5, 97.7 etc.
+They're known as in `float` programming language.
+### 3. Character: 
+They're alphabets. Example: a, d, e, A, M, S etc.
+They're known as `char` in programming language. <br>
+
+So, as we declared `int a`, that means it can only hold integer values. But what will happen if we try to put a floating value or value with decimal point in an integer variable? Let's see! <br>
+
+```
+#include<stdio.h>
+
+int main() 
+{  
+    int a;
+    a= 5.2;
+    
+    printf("a = %d", a);
+    
+    return 0;
+   
+} 
+```
+What happens after running this code? <br>
+you see something like this `a = 5` <br>
+
+But we entered 5.2 in `a`. This happened because `a` is declared as int, that means it can only hold integer type value. As we entered a value with decimal point, it only took it's integer part and avoided the decimal point part.
+
+
+Let's see this code again but with some additional things. 
+
+```
+#include<stdio.h>
+
+int main() 
+{  
+    int a;
+    printf("Enter a number: \n");
+    scanf(" %d", &a);
+    
+    printf("The number is: %d ", a);
+    
+    return 0;
+   
+} 
+```
+
+Compile this code, run it and see the result. <br>
+
+Another black screen comes in front of you and tells you to enter a number. If you enter a number, it displays the number you entered. <br>
+Let's try to understand what's new in this code!!! <br>
+
+First we declared an integer called `a`.
+In the next line, the code was <br>
+```
+   printf("Enter a number: \n");
+```
+<br>
+
+You already know about ` printf ` function, but ` \n ` is new for you. <br>
+` \n ` is an special symbol that gives a _line break_. That means, when I use ` \n ` in a line, that line finishes there.
+
+## Meaning of `scanf(" %d", &a);`:
+`scanf` is another library function which works as it is supposed to do, It's work is to get number from user. <br> 
+`%d` means it'll take an integer value from user. <br>
+_[`%d` is for taking integer value, `%f` is for taking float values and `%c` is for char or characters]_ <br>
+
+Now, because of `%d`, the function `scanf` will take a value from user, but where it'll store or save it???<br>
+There comes the `&a`. We declared an integer variable `a` at the beginning of our program. We'll keep the value in `a`. To transfer the value from `%d` to `a` we use `&` symbol. So, `&a` puts the value in `a`. Now, remember, `a` is just a variable we declared at the beginning. We could name it anything. If we declared it as `int b` or `int random` or anything else, it would work just fine. Then we would have to use it like `&random`. Now, you've understood that, in `scanf(" %d", &a);`, user enters a value and `%d` receives it and sends it to `&a` <br> <br>
+
+Then it displays the value with this line <br>
+```
+printf("The number is: %d ", a);
+```
+
