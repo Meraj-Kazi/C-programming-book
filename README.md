@@ -191,7 +191,7 @@ int main()
 } 
 ```
 
-## {due work: write the result and cause}
+We declared three variables a, b and c. c had no value stored in it. So the result was something like 32766 or 32765 or any other odd number. This is known as garbage value. <br>
 
 By the way, did you guys notice that we used `int a`, `int a,b` and `int a,b,c` in these codes?? <br>
 
