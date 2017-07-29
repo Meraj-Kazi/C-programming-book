@@ -303,6 +303,6 @@ Compile and run it! <br>
 Youe aee that, it prints the value of `sum` which is the result of adding `a` and `b`. Another thing we need to understand that we declared `sum` as a integer variable. How could we know that the result of adding `a` and `b` would be integer???<br>
 Because, result of adding two integers is always an integer value and result of adding two floats is always a float value. That goes for other mathematical operations like division, multiuplication etc. too. Now, if you have understood this, then solve this problem below. <br>
 
-### Problem : Write a program to add, subtract, multiply and divide two numbers input by user. (result at page-   )
+### Problem : Write a program to add, subtract, multiply and divide two numbers input by user. (result at result chapter in the end of thus book)
 
 
