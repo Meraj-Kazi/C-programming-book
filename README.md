@@ -305,4 +305,5 @@ Because, result of adding two integers is always an integer value and result of 
 
 ### Problem : Write a program to add, subtract, multiply and divide two numbers input by user. (result at result chapter in the end of thus book)
 
+Now that we're knowing about C language little by little, we need to know something new. Let's talk about `modulus (%)` operator. 
 
