@@ -304,6 +304,8 @@ Youe aee that, it prints the value of `sum` which is the result of adding `a` an
 Because, result of adding two integers is always an integer value and result of adding two floats is always a float value. That goes for other mathematical operations like division, multiuplication etc. too. Now, if you have understood this, then solve this problem below. <br>
 
 ### Problem : Write a program to add, subtract, multiply and divide two numbers input by user. (result at result chapter in the end of thus book)
+<br><br><br><br>
 
+### Modulus operator<br><br> 
 Now that we're knowing about C language little by little, we need to know something new. Let's talk about `modulus (%)` operator. 
 
