@@ -321,9 +321,15 @@ Let's see an example first, <br>
 ```
 
 Looks weird?! <br>
-In the example, 5 is divided by 2 and there remains a remainder 1. That is waht modulus operator does. It gives us the remainder. <br> 
+In the example, 5 is divided by 2 and there remains a remainder 1. That is what modulus operator does. It gives us the remainder. <br> 
 
+Then guess the answers here: <br>
 
+```
+7   %  3   = ?
+21  %  7   = ?
+543 %  8   = ?
+```
 
 
 
