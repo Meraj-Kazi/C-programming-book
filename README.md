@@ -307,5 +307,24 @@ Because, result of adding two integers is always an integer value and result of 
 <br><br><br><br>
 
 ### Modulus operator<br><br> 
-Now that we're knowing about C language little by little, we need to know something new. Let's talk about `modulus (%)` operator. 
+Now that we're knowing about C language little by little, we need to know something new. Let's talk about `modulus (%)` operator. <br>
+
+Modulus operator helps us in many ways during programming. But before that, we need to understand what it actually does.
+Let's see an example first, <br>
+
+```
+5 + 2 = 7
+5 - 2 = 3
+
+5 % 2 = 1
+
+```
+
+Looks weird?! <br>
+In the example, 5 is divided by 2 and there remains a remainder 1. That is waht modulus operator does. It gives us the remainder. <br> 
+
+
+
+
+
 
