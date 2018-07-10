@@ -331,6 +331,7 @@ Then guess the answers here: <br>
 543 %  8   = ?
 ```
 
-
+I think we understood the concept of <strong>Modulus</strong> operator pretty well enough.
+Then let's move forward!
 
 
