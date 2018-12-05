@@ -17,7 +17,7 @@ Here's is a list of some C language compilers:
 - [Codeblocks](http://www.codeblocks.org/downloads/26)
 - [Dev C++](https://sourceforge.net/projects/orwelldevcpp/) 
 - [Vim](http://www.vim.org/download.php) (_my favourite, but don't try if you're a biginner_) 
-- Turbo C etc.
+- Turbo C etc. 
 
 Codeblocks or Dev C++ will be better choice for beginners. So, download any one of those and install it in your PC. After installing successfully, open it. Go to the top left and click on the tab named `File` and select `new file` or `new source file` or just `new` and then `source file`. 
 
