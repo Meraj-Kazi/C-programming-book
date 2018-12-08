@@ -13,6 +13,7 @@ You can contribute in this book in many ways, such as
 * Find errors in code used in the book
 * Find those parts that seems confusing or hard to understand
 * Find conceptual mistakes
+* Suggest new topics which are not yet included
 
 ### Then go to [Fault in our stardust](https://github.com/Meraj-Kazi/C-programming-book/blob/master/Fault-in-our-stardust.md) and make a pull request describing the error or fault.
 
