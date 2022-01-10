@@ -334,4 +334,6 @@ Then guess the answers here: <br>
 I think we understood the concept of <strong>Modulus</strong> operator pretty well enough.
 Then let's move forward! 
 
+## Conditional Operator
+
 
