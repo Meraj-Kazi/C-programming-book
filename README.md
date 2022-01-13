@@ -336,4 +336,6 @@ Then let's move forward!
 
 ## Conditional Operator
 
+## Functions
+
 
