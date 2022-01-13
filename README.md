@@ -369,3 +369,7 @@ You can give any integer input -20, 19, 50, 101, 100,  205 or any whole number y
 It is clear that the conditional operator always check the condition before the `?` symbol and if the condition is true then the expression before `:` symbol will be executed otherwise the expression after `:` symbol will be executed.<br><br>
 ### Problem : Write a program with the conditional operator to check the input number is odd or even. (result at result chapter in the end of this book)
 
+
+
+
+## Functions
